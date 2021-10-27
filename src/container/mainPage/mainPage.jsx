@@ -22,6 +22,7 @@ class MainPage extends Component {
         city: undefined,
         country: undefined,
         humidity: undefined,
+        weatherMain: undefined,
         description: undefined,
         pressure:undefined,
         sunrise: undefined,
@@ -37,6 +38,8 @@ class MainPage extends Component {
       componentDidMount() {
           this.getWeather();
           this.getForecast();
+
+
       }
 
 
@@ -60,6 +63,7 @@ class MainPage extends Component {
             sunset: data.sys.sunset,
             windSpeed: data.wind.speed,
             description: data.weather[0].description,
+            weatherMain: data.weather[0].main,
             error: ""
           });
         } else {
@@ -126,8 +130,9 @@ class MainPage extends Component {
 
 
     render() { 
+
         return (
-            <div className="MainPage" style={{backgroundImage: this.state.backgrounds.sun}}>
+            <div className="MainPage" style={{backgroundImage: this.state.weatherMain === 'Rain' ? this.state.backgrounds.rain : this.state.weatherMain === 'Snow' ? this.state.backgrounds.snow : this.state.backgrounds.sun }}>
                 {/* main box - current status  */}
                 <div className="currentStatus">
                     <div className="cityName">{this.state.city}, {this.state.country}</div>
