@@ -1,0 +1,144 @@
+.MainPage {
+    text-align: center;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 0;
+    width: 390px;
+    min-width: 390px;
+    min-width: 390px;
+    height: 844px;
+    min-height: 844px;
+    max-height: 844px;
+    overflow-y: scroll;
+    background-color: pink;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+}
+
+.currentStatus { 
+    width: 360px;
+    height: 280px;
+    margin: 50px auto 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+}
+
+.cityName { 
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.Temperature { 
+    font-size: 6rem;
+    font-weight: 600;
+}
+.status { 
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.highLow { 
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.sevendaysTable { 
+    width: 360px;
+    overflow: scroll;
+    height: 150px;
+    margin: 20px auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    box-sizing: border-box;
+}
+
+.sevenDaysChart {
+    width: 360px;
+    height: fit-content;
+    margin: 20px auto;
+    padding: 15px 10px 0 7px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    box-sizing: border-box;
+}
+
+.more { 
+    width: 360px;
+    height: 70px;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.extraInfo { 
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap:wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.extraBox { 
+    width: 170px;
+    height: 170px;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.extraBoxDetail { 
+    font-size: 2.4rem;
+    margin: 0;
+}
+.unit { 
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: auto 0;
+}
+
+
